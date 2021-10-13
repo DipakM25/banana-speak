@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --btn-bg-color: #ff9999;
+  --btn-bg-hover-color: ffec99;
+  --btn-hover-text-color: #5f6164;
+  --twitter-color: #55acee;
+  --linkedin-color: #007bb5;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  background-image: url("/images/envolpe.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: blanchedalmond;
+}
+
+.container-center {
+  max-width: 500px;
+  padding: 0rem 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+textarea {
+  border: 1px solid black;
+  display: block;
+  width: 90%;
+  height: 15vh;
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: transparent;
+  resize: none;
+}
+::placeholder {
+  color: rgb(112, 107, 107);
+  opacity: 1;
+}
+
+#output {
+  border: 1px solid black;
+  width: auto;
+  height: 15vh;
+  padding: 0.5rem;
+  margin: 1rem;
+  text-align: left;
+  color: black;
+}
+
+#error-output {
+  text-align: center;
+  margin: 0rem 0rem 1rem 0rem;
+  font-size: large;
+}
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.footer {
+  padding: 3rem 1rem 0.8rem 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.fa {
+  padding: 0.5rem;
+  font-size: x-large;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.6;
+}
+
+.fa-twitter {
+  color: var(--twitter-color);
+}
+
+.fa-linkedin {
+  color: var(--linkedin-color);
+}
+
+.fa-github {
+  color: black;
+}
+
+#btn-translate {
+  background-image: linear-gradient(
+    319deg,
+    #bbff99 0%,
+    #ffec99 37%,
+    #ff9999 100%
+  );
+}
+#btn-translate {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(112, 107, 107);
+  border-radius: 10px;
+  display: block;
+  border: none;
+  margin-left: 180px;
+}
+
+#btn-translate:hover {
+  background-position: right center;
+  color: rgb(112, 107, 107);
+  text-decoration: none;
+}
